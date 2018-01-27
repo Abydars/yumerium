@@ -1,0 +1,563 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px
+}
+.align-right {
+	float: right;
+}
+.main-wraper h1 {
+	font-size: 48px;
+	color: #fff;
+	text-align: center;/* margin: 0; */
+}
+.main-wraper {
+	background: url(img/landing-body-bg.jpg) no-repeat;
+	background-size: cover;
+	z-index: 9;
+}
+.top-sec {
+	padding: 40px 0 20px 0;
+}
+.email-subss {
+	padding: 15px 0;
+	clear: both;
+	overflow: hidden;
+	float: right;
+}
+.email-subss p {
+	color: #fff;
+	display: inline-block;
+	float: left;
+	margin: 8px 10px 0 0;
+}
+.email-subss .email-subss-form {
+	float: left
+}
+.email-subss-form input {
+	border-radius: 30px !important;
+	border: none; 
+	padding: 7px 30px;
+
+    margin-left: 10px !important;
+}
+.email-subss-form input[type="text"] {
+	width: 152px;
+	background-image: url(img/name-icon.png);
+	background-repeat: no-repeat;
+	background-position: 12px 11px;
+}
+.email-subss-form input[type="email"] {
+	width: 220px;
+	background-image: url(img/email-icon.png);
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+	padding: 7px 35px;
+}
+.email-subss-form input[type=submit] {
+	border: 1px solid #00a4f8 !important;
+    background: transparent !important;
+    color: #fff;
+    padding: 2px 25px !important;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: auto !important;
+}
+.email-subss-form form#mc-embedded-subscribe-form {
+     padding: 0;
+    text-align: center;
+}
+
+/* top section*/
+
+
+.botomvorder {
+	width: 30px;
+	height: 2px;
+	background: #00a4f8;
+	margin: 30px auto;
+}
+
+
+/* section one */
+
+
+
+.secone-top p {
+	font-size: 16px;
+	padding: 0 25pc;
+	margin: 0;
+}
+.landing-section-one {
+	text-align: center;
+	padding: 50px 0 10px;
+}
+.secone-top h1 {
+	font-size: 80px;
+	font-weight: 900;
+}
+.secone-top {
+	color: #fff;
+	background: url(img/bg-1.png) no-repeat;
+	background-position: center top;
+	padding-top: 5px;
+}
+div#clock {
+	text-align: center;
+	padding: 15px 0 0 0;position: relative;
+}
+div#clock:before, div#clock:after {
+    content: '';
+    background: #404040;
+    height: 1px;
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+div#clock:after {right: auto;left:0}
+.tmedv {
+	display: inline-block;
+	font-size: 66px;
+	font-weight: 600;
+	color: #54556a;
+	padding: 0 40px;
+	position: relative;
+}
+.tmedv:last-child:after {
+	display: none
+}
+.tmedv:after {
+	content: ':';
+	position: absolute;
+	right: 0;
+	font-size: 25px;
+	bottom: 33px;
+}
+.tmedv span {
+	display: block;
+	font-size: 12px;
+}
+.landing-section-one h4 {
+	color: #65677d;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px 0 0 0;
+}
+.secone-botom {
+	padding: 25px 0;
+	text-align: center
+}
+/* section two */
+
+.landing-section-two {
+	background: url(img/bg-2.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	text-align: center;
+	padding: 90px 0 100px 0;
+}
+.landing-section-two p {
+	font-size: 18px;
+	color: #ffff;
+}
+/* section three */
+.landing-section-three {
+	text-align: center;
+	position: relative;
+	z-index: 999;
+}
+.landing-section-three:after {
+	content: "";
+	background: url(img/bg-4.png) no-repeat;
+	width: 687px;
+	height: 479px;
+	position: absolute;
+	top: 360px;
+	left: 0;
+	z-index: -1;
+}
+.landing-section-two-div {
+	padding-top: 50px;
+	clear: both;
+	overflow: hidden;
+}
+.landing-section-two-div h3 {
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+	font-weight: 600;
+	padding: 20px 0 20px 32px;
+	position: relative;
+	margin: 0;
+}
+.landing-section-two-div ul li {
+	color: #ababab;
+	font-size: 12px;
+	text-align: left;
+	line-height: 20px;
+}
+.landing-section-two-div ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.landing-section-two-div .botomvorder {
+	margin-bottom: 65px;
+}
+.hicon:before {
+	content: "";
+	background: url(img/color-icon.png) no-repeat;
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	top: 17px;
+	left: 0;
+}
+.orng:before {
+	background-position: -25px 0px;
+}
+.reed:before {
+	background-position: -51px 0px;
+}
+.prle:before {
+	background-position: -79px 0px;
+}
+.gren:before {
+	background-position: -105px 0px;
+}
+.lblu:before {
+	background-position: -132px 0px;
+}
+.dblu:before {
+	background-position: -159px 0px;
+}
+/* section four */
+ 
+.landing-section-four {
+	background: url(img/bg-3.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	text-align: center;
+	padding: 71px 0 120px 0;
+}
+.landing-section-four .botomvorder {
+	margin-bottom: 45px;
+}
+/* section five */
+
+.landing-section-five {
+	text-align: center;
+	color: #fff;
+}
+.landing-section-five p {
+	color: #fff;
+	font-size: 18px;
+}
+.landing-section-five  span {
+	display: block;
+	font-size: 15px;
+	line-height: 30px;
+}
+.landing-section-five  h5 {
+	color: #fff;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.clients-lgo {
+	padding: 40px 0px;
+}
+.ports-lgo h5 {
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+.clients-lgo img {
+	border-radius: 10px;
+}
+/* section six */ 
+
+.landing-section-six {
+	text-align: center;
+	background: url(img/bg-6.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	color: #fff;
+	margin-top: -80px;
+	padding-top: 110px;
+	padding-bottom: 80px;
+}
+.landing-section-six h5 {
+	color: #fff;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+.landing-section-six .row {
+	padding-bottom: 40px;
+}
+.landing-section-six .fullimg {
+	width: 100%;
+}
+/* section seven */
+.landing-section-seven {
+	text-align: center;
+	background: url(img/bg-7.png) no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 115px;
+}
+/*footer*/
+
+.copyright {
+	color: #fff;
+	padding: 28px 0;
+	background: #ffffff14;
+	text-align: center;
+}
+.copyright p {
+	margin: 0;
+	font-size: 13px;
+}
+.footer-top {
+	text-align: center;
+	padding: 25px 0 45px 0;
+}
+.footer-top h2 {
+	color: #fff;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+.footer-top p {
+	color: #b0b9c7;
+	font-size: 12px;
+	margin: 30px 0 0 0;
+}
+.footer-top .email-subss-form input[type="name"] {
+	width: 191px;
+}
+.footer-top .email-subss-form input[type="email"] {
+	width: 281px;
+}
+.footer-top .email-subss-form input {
+	height: 36px;
+}
+.footer-top .email-subss-form input[type=submit] {
+	background: #00a4f8;
+}
+/*team */
+.team-tabs .nav-tabs.nav-justified > li > a {
+	background: transparent;
+	color: #fff;
+	font-size: 13px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 7px 20px;
+}
+.team-tabs .nav-tabs li.active a {
+	background: transparent;
+	border: 1px solid #00a0f6;
+}
+.tab-content {
+	position: relative;
+	overflow: hidden;
+}
+.tab-content.is-animating {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	right: 15px;
+	width: auto;
+}
+.content-pane {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: 0;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: translateX(100%) translateY(-50%);
+	transform: translateX(100%) translateY(-50%);
+}
+.content-pane.is-active {
+	position: relative;
+	opacity: 1;
+	-webkit-transform: translateX(0%);
+	transform: translateX(0%);
+}
+.content-pane.is-exiting {
+	opacity: 0;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+.content-pane.is-animating {
+	-webkit-transition: opacity 400ms ease-out, -webkit-transform 400ms ease-out;
+	transition: opacity 400ms ease-out, -webkit-transform 400ms ease-out;
+	transition: opacity 400ms ease-out, transform 400ms ease-out;
+	transition: opacity 400ms ease-out, transform 400ms ease-out, -webkit-transform 400ms ease-out;
+}
+.tab-content {
+	padding: 50px 0;
+}
+.team-tabs .nav-justified > li {
+	display: inline-block;
+	width: auto;
+	margin: 0 5px;
+}
+.team-tabs .nav-tabs.nav-justified {
+	text-align: center;
+}
+.team-tabs {
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+.team_box .botomvorder {
+	margin: 17px auto;
+}
+ 
+.team_box h2 {
+	font-size: 22px;
+	margin-top: 25px;position: relative;
+}
+.team_box p {
+}
+.team_box {
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+ 
+.team_box:before {
+	content: '';
+	background: url(img/team-icon.png);
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 18%;
+	top: 56%;
+}
+
+
+div#tab1 .team_box:before {
+right: 26%;
+    top: 57%;
+}
+div#tab3 .team_box:before{
+    right: 26%;
+    top: 54%;
+}
+
+
+
+/* responsive */
+@media only screen and (max-width: 768px)
+
+{
+	.email-subss .email-subss-form {
+    float: none;
+    margin-top: 20px;
+}
+	#mc_embed_signup .button {
+		margin-top: 10px !important;
+	}
+	img {
+    border: 0;
+    max-width: 84%;
+}
+.secone-top p {
+    font-size: 16px;padding: 0 0;
+}.main-wraper{ padding:0 15px}
+.logo {
+    text-align: CENTER;
+}
+.email-subss {
+    float: none;
+    text-align: center;
+}
+.email-subss p {
+    float: none;
+    margin: 8px 0 0 0;
+}
+}
+
+@media only screen and (max-width: 767px)
+
+{
+	.main-wraper{ padding:0 15px}
+	.top-sec {
+    padding: 20px;
+}
+.logo {
+    text-align: CENTER;
+}
+.email-subss {
+    float: none;
+    text-align: center;
+}
+.email-subss p {
+    float: none;
+    margin: 8px 0 0 0;
+}
+.email-subss-form input[type="text"], .email-subss-form input[type="email"] {
+        width: 90%;
+    margin-top: 15px;}
+	.footer-top .email-subss-form input[type="email"] {
+    width: 90%;
+}
+	.email-subss-form input[type=submit]{margin-top: 15px;}
+	.email-subss-form input {
+    margin-left: 0px;
+}
+.secone-top h1 {
+    font-size: 41px;
+}
+.secone-top p {
+    padding: 0;
+}
+.landing-section-one img {
+    width: 65%;
+}
+.main-wraper h1 {
+    font-size: 30px;}
+	.landing-section-two p {
+    font-size: 12px;
+    padding: 0 15px;
+}
+	img {
+    border: 0;
+    max-width: 84%;
+}
+.landing-section-three:after, div#clock:before, div#clock:after{display:none}
+.landing-section-one {
+    padding: 20px 0 10px;
+}
+.landing-section-two, .landing-section-four, .landing-section-seven {
+  background-size: cover;
+   padding: 14px 0 53px 0;
+}
+.landing-section-two-div {
+    padding-top: 20px;}
+	.landing-section-two-div .botomvorder {
+    margin-bottom: 15px;
+}
+.team-tabs .nav-justified > li {
+	display: block;
+	width: 150px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.team-tabs .nav-tabs.nav-justified > li > a {
+    font-size: 10px;
+     padding: 7px 5px;
+}
+	
+	}
